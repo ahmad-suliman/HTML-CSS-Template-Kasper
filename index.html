@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kasper - Template Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><img src="image/logo.png" alt="logo"></a>
+            <nav>
+                <div class="icon toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protofolio">Protofolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <img src="image/icons8-search-24.png" alt="search">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="landing">
+        <div class="overlay">
+            <div class="text">
+                <div class="content">
+                    <h2>Hello World! <br>We Are Kasper We Make Art.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quis aperiam culpa ipsum consequuntur libero aut molestiae quisquam natus, ullam autem accusamus nostrum ad vero odio alias! 
+                        Necessitatibus, inventore debitis.</p>
+                </div>
+            </div>
+        </div>
+        <img src="image/icons8-double-left-24.png" class="change-background left" >
+        <img src="image/icons8-double-right-24.png" class="change-background right">
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+             <div class="main-headding">
+            <h2 >service</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, some word h consectetur, some word hconsectetur, some word here and here bla bla bla</p>
+            </div> 
+            <div class="services-container">
+                <div class="srv-box">
+                    <img src="image/icons8-desktop-30.png" alt="">
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus
+                             eos accusantium obcaecati, voluptates nam perferendis pariatur
+                              quas, adipisci molestias commodi! Dolorum quasi excepturiatque, neque quo ab odit tenetur</p>
+                        </div>
+                </div>
+                <div class="srv-box">
+                    <img src="image/icons8-design-30.png" >
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus
+                             eos accusantium obcaecati, voluptates nam perferendis pariatur
+                              quas, adipisci molestias commodi! Dolorum quasi excepturiatque, neque quo ab odit tenetur</p>
+                        </div>
+                </div>
+                <div class="srv-box">
+                    <img src="image/icons8-camera-30.png">
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus
+                             eos accusantium obcaecati, voluptates nam perferendis pariatur
+                              quas, adipisci molestias commodi! Dolorum quasi excepturiatque, neque quo ab odit tenetur</p>
+                        </div>
+                </div>
+                <div class="srv-box">
+                    <img src="image/icons8-setting-30.png" alt="">
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus
+                             eos accusantium obcaecati, voluptates nam perferendis pariatur
+                              quas, adipisci molestias commodi! Dolorum quasi excepturiatque, neque quo ab odit tenetur</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="design">
+        <div class="image">
+            <img src="image/mobile.png" alt="">
+        </div>
+        <div class="text">
+            <h2>Our Design Coms With...</h2>
+            <ul>
+                <li>Respomsive Design</li>
+                <li>Modren And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <div class="protofolio" id="protofolio">
+        <div class="container">
+        <div class="main-headding">
+            <h2>Protofolio</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam nihil maxime suscipit ex, impedit provident beatae similique voluptatum, deleniti, qui veniam vitae aut alias officia architecto asperiores magnam incidunt.</p>
+        </div>
+        <ul class="shuffle">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('app')">App</button>
+            <button class="btn" onclick="filterSelection('photo')">Photo</button>
+            <button class="btn" onclick="filterSelection('web')">Web</button>
+            <button class="btn" onclick="filterSelection('print')">Print</button>
+        </ul>
+    </div>
+    <div class="images-container">
+        <div class="box app">
+            <img src="image/shuffle-01.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box photo">
+            <img src="image/shuffle-02.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box app">
+            <img src="image/shuffle-03.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box web">
+            <img src="image/shuffle-04.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box print">
+            <img src="image/shuffle-05.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box web">
+            <img src="image/shuffle-06.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box photo">
+            <img src="image/shuffle-07.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box app">
+            <img src="image/shuffle-08.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+    </div>
+    <div class="more-images">
+        <div class="box1 app hidden">
+            <img src="image/shuffle-01.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 photo hidden">
+            <img src="image/shuffle-02.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 app hidden">
+            <img src="image/shuffle-03.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 web hidden">
+            <img src="image/shuffle-04.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 print hidden">
+            <img src="image/shuffle-05.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 web hidden">
+            <img src="image/shuffle-06.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+        <div class="box1 photo hidden">
+            <img src="image/shuffle-07.jpg">
+            <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+            </div>
+        </div>
+    </div>
+    <button id="more">More</button>
+    <button id="hide">Hide</button>
+</div>
+<div class="video">
+    <video autoplay muted loop>
+        <source src="image/awesome-video.mp4" type="video/mp4">
+    </video>
+    <div class="text">
+        <h2>Super Awesome Vedio Here</h2>
+        <p>Its All You Need</p>
+        <button>See More </button>
+    </div>
+</div>
+<div class="about" id="about">
+    <div class="container">
+        <div class="main-headding">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam cupiditate, minima animi nisi sit cum optio accusamus debitis beatae nostrum perferendis doloribus accusantium illum distinctio sunt id recusandae ali</p>
+        
+        </div>
+        <img src="image/about.png">
+    </div>
+</div>
+<div class="stats">
+    <div class="container">
+        <div class="box">
+            <img src="image/icons8-cup-24.png">
+            <div class="number">1.233</div>
+            <p>Coffe Drinks</p>
+        </div>
+        <div class="box">
+            <img src="image/icons8-folder-24.png">
+            <div class="number">1.233</div>
+            <p>Completed Projects</p>
+        </div>
+        <div class="box">
+            <img src="image/icons8-mail-24.png">
+            <div class="number">1.233</div>
+            <p>Mail Sent</p>
+        </div>
+        <div class="box">
+            <img src="image/icons8-trophy-24.png" >
+            <div class="number">1.233</div>
+            <p>Awards Received</p>
+        </div>
+    </div>
+</div>
+<div class="our-skills">
+    <div class="container">
+        <div class="testimonials">
+            <h3>Testimonials</h3>
+            <p>
+                Curabitur arcu erat, accumsan id 
+                imperdiet et, porttitor at sem. Mauris blandit
+                 aliquet elit, eget tincidunt. </p>
+                 <div class="content">
+                    <img src="image/skills-01.jpg">
+                    <div class="text">
+                        Curabitur arcu erat, accumsan id 
+                imperdiet et, porttitor at sem. Mauris blandit
+                 aliquet elit, eget tincidunt.
+                 <p>Jone Doe, CEO</p>
+                    </div>
+                  </div>
+                    <div class="content">
+                        <img src="image/skills-02.jpg">
+                        <div class="text">
+                            Curabitur arcu erat, accumsan id 
+                    imperdiet et, porttitor at sem. Mauris blandit
+                     aliquet elit, eget tincidunt.
+                     <p>Jone Doe, CEO</p>
+                        </div>
+                 </div>
+                 <ul class="bullets">
+                <li></li>
+                 <li class="active"></li>
+                 <li></li>
+                </ul>
+            </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <p>
+                Curabitur arcu erat, accumsan id 
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+             </p>
+             <div class="prog-holder">
+                <h4>Adobe</h4>
+                <div class="prog">
+                    <span style="width: 90%" data-progress="90%"></span>
+                </div>
+             </div>
+             <div class="prog-holder">
+                <h4>Html & Css</h4>
+                <div class="prog">
+                    <span style="width: 85%" data-progress="85%"></span>
+                </div>
+             </div>
+             <div class="prog-holder">
+                <h4>Java Script</h4>
+                <div class="prog">
+                    <span style="width: 70%" data-progress="70%"></span>
+                </div>
+             </div>
+             <div class="prog-holder">
+                <h4>PhP</h4>
+                <div class="prog">
+                    <span style="width: 95%" data-progress="95%"></span>
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>
+<div class="quote">
+    <div class="container">
+        <q>  Curabitur arcu erat, accumsan id 
+            imperdiet et, porttitor at sem. Mauris blandit
+             aliquet elit, eget tincidunt.</q>
+             <span>Jone Done</span>
+    </div>
+</div>
+<div class="pricing" id="pricing">
+    <div class="container">
+        <div class="main-headding">
+            <h2>pricing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quo dolorem ipsam corrupti voluptatibus, sint eum quos rerum vitae reprehenderit maxime, nisi accusamus? Id quibusdam quidem sequi magnam veniam nobis.</p>
+        </div>
+        <div class="plans">
+            <div class="plan">
+                <div class="head">
+                    <h3>Basic</h3>
+                    <span>19</span>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Feature No 2</li>
+                    <li>Feature Extra</li>
+                    <li>Feature</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="plan">
+                <div class="head">
+                    <h3>premum</h3>
+                    <span>29</span>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Feature No 2</li>
+                    <li>Feature Extra</li>
+                    <li>Feature</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="plan">
+                <div class="head">
+                    <h3>pro</h3>
+                    <span>39</span>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Feature No 2</li>
+                    <li>Feature Extra</li>
+                    <li>Feature</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="plan">
+                <div class="head">
+                    <h3>platinum</h3>
+                    <span>49</span>
+                </div>
+                <ul>
+                    <li>Feature No 1</li>
+                    <li>Feature No 2</li>
+                    <li>Feature Extra</li>
+                    <li>Feature</li>
+                </ul>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+        <p class="contact-text">contact us if you have special request</p>
+       <a href="#" class="contact-link">Contact Us</a>
+    </div>
+</div>
+<div class="subscribe">
+    <div class="container">
+        <form action="">
+            <input type="email" name="mail" placeholder="Your E-mail">
+            <input type="submit" value="subscribe">
+        </form>
+        <p> Curabitur arcu erat, accumsan id 
+            imperdiet et, porttitor at sem. Mauris blandit
+             aliquet elit, eget tincidunt.</p>
+    </div>
+</div>
+<div class="contact-us" id="contact">
+    <div class="container">
+        <div class="main-headding">
+            <h2>contact us</h2>
+            <p> Curabitur arcu erat, accumsan id 
+                imperdiet et, porttitor at sem. Mauris blandit
+                 aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="content">
+            <form action="">
+                <input type="text" name="name" class="main-input" placeholder="Your Name">
+                <input type="email" name="email" class="main-input" placeholder="Your E-mail">
+                <textarea name="message" placeholder="Your message" class="main-input"></textarea>
+                <input type="submit" value="send message">
+            </form>
+            <div class="info">
+                <h4>Get In Touch</h4>
+                <span class="phone">+00 123.456.789</span>
+                <span class="phone">+00 123.456.789</span>
+                <h4>Where We Are</h4>
+                <address>Awesome Address 17<br>New York,NYC<br> 123-456-84<br>USA</address>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <img src="image/logo.png">
+        <p>We Are Social</p>
+        <div class="social-icons">
+            <a href="www.facebook.com"><img src="image/icons8-facebook-30.png"></a>
+            <a href="www.x.com"><img src="image/icons8-twitter-30.png"></a>
+            <a href="www.youtube.com"><img src="image/icons8-youtube-50.png"></a>
+        </div>
+        <p class="copyright">
+            &copy; 2024 <span>Kasper</span> All Right Reser
+        </p>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
